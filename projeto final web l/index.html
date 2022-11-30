@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto-Final-Web-I</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+
+    <div id="interface">
+        <p id="espaco0"></p>
+        <p id="visor"></p>
+        <p id="espaco1"></p>
+        <div id="botao">
+            <input class="botoes" type="button" value="0" onclick="inserir('0')">
+            <input class="botoes" type="button" value="1" onclick="inserir('1')">
+            <input class="botoes" type="button" value="2" onclick="inserir('2')">
+            <input class="botoes" type="button" value="3" onclick="inserir('3')">
+            <input class="botoes" type="button" value="4" onclick="inserir('4')">
+            <input class="botoes" type="button" value="5" onclick="inserir('5')">
+            <input class="botoes" type="button" value="6" onclick="inserir('6')">
+            <input class="botoes" type="button" value="7" onclick="inserir('7')">
+            <input class="botoes" type="button" value="8" onclick="inserir('8')">
+            <input class="botoes" type="button" value="9" onclick="inserir('9')">
+            <input class="botoes" type="button" value="+" onclick="inserir('+')">
+            <input class="botoes" type="button" value="-" onclick="inserir('-')">
+            <input class="botoes" type="button" value="x" onclick="inserir('*')">
+            <input class="botoes" type="button" value="/" onclick="inserir('/')">
+            <input class="botoes" type="button" value="C" onclick="limpar()">
+            <input class="botoes" type="button" value="=" onclick="calcular()">
+        </div>
+
+    </div>
+    
+    <footer>&copy; Beatriz Cassemiro <br>&copy; Vitor Silveira</footer>
+</body>
+</html>

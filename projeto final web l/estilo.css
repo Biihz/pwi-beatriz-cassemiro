@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+/*Formatação dos títulos*/
+header{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.479);
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font: normal 40px verdana;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.719);
+}
+
+/*Formatação da interface*/
+body{
+    background-color: rgb(28, 59, 161);
+}
+
+#interface{
+    background-color: rgb(71, 23, 134);
+    padding: 20px;
+    width: 410px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
+}
+/*Formatação do visor*/
+#visor{
+    width: 370px;
+    height: 60px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
+    font: normal 25px arial;
+    background-color: white;
+    line-height: 55px;
+    text-align: right;
+    padding-right: 20px;
+}
+#espaco0{
+    margin: 20px 0px;
+}
+#espaco1{
+    margin: 30px 0px;
+}
+
+/*Formatação dos botões*/
+#botao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+.botoes{
+    font: normal 30px arial;
+    margin: 10px;
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(190, 190, 190);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.541);
+}
+
+.botoes:hover{
+    cursor: pointer;
+    background-color: rgb(35, 70, 185);
+    color: white;
+    transition: 0.2s;
+}
+
+/*Formatação do rodapé*/
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
